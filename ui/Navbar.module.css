@@ -1,18 +1,21 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 20px 100px;
+  margin: 10px 100px;
   padding: 10px 0;
+  position: relative;
 }
 
 .link {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
+  /* color: white; */
 }
 
 .div > .link {
   justify-content: center;
   margin: 0 10px;
   text-decoration: none;
+  /* color: black; */
 }

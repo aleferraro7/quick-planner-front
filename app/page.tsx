@@ -1,11 +1,13 @@
-import Image from 'next/image';
-import styles from './page.module.css';
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/Navbar';
+import styles from '../ui/home.module.css';
 
-export default function Home() {
+export default function Page() {
   return (
-    <main>
-      <div>PAGINA DE INICIO</div>
-    </main>
+    <body className={styles.body}>
+      <Navbar />
+      <div>
+        <div>PAGINA DE INICIO</div>
+      </div>
+    </body>
   );
 }

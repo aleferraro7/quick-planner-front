@@ -1,10 +1,6 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import Navbar from '@/components/navbar';
-import styles from '../app/page.module.css';
-
-const inter = Inter({ subsets: ['latin'] });
+import { lusitana, montserrat, pt_sans } from '@/ui/fonts';
+import styles from '../ui/home.module.css';
 
 export const metadata: Metadata = {
   title: 'Quick Planner APP',
@@ -17,11 +13,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
-      <body>
-        <Navbar />
-        <div>{children}</div>
-      </body>
+    <html
+      lang='en'
+      suppressHydrationWarning
+      className={`${montserrat.className}`}
+    >
+      <body className={styles.body}>{children}</body>
     </html>
   );
 }

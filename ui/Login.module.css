@@ -5,7 +5,7 @@
   place-items: center;
   margin: 0;
   padding: 0 24px;
-  background-image: url('background-circles.svg');
+  /* background-image: url('background-circles.svg'); */
   background-repeat: no-repeat;
   background-size: cover;
   color: #000;

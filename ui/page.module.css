@@ -1,17 +1,6 @@
-* {
-  box-sizing: border-box;
-  background-image: url('backgound.svg');
-}
-*/ html,
-body,
-.wrapper {
-  background-image: url('../styles/backgound.svg');
+/* .main {
   height: 100%;
-}
-
-/* .html {
-  height: 100%;
-  background-image: url('../styles/background-circles.svg');
+  background-image: url('../styles/background-mar.svg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

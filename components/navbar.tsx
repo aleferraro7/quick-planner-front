@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../styles/navbar.module.css';
+import styles from '../ui/Navbar.module.css';
 
 export default function Navbar() {
   return (
@@ -10,10 +10,10 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.div}>
-        <Link className={styles.link} href='/login'>
+        <Link className={styles.link} href='/auth/login'>
           Login
         </Link>
-        <Link className={styles.link} href='/register'>
+        <Link className={styles.link} href='/auth/register'>
           Register
         </Link>
       </div>
